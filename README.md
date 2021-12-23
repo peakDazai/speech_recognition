@@ -3,7 +3,7 @@ speech_recognition doesn't work
 
     import speech_recognition as sr
 
-        r = sr.Recognizer()
+    r = sr.Recognizer()
     with sr.Microphone() as source:
         print("Say something!")
         r.record(source, duration=2)
